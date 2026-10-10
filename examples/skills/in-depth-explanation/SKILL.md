@@ -15,7 +15,7 @@ description: Deliver deep, mechanically precise explanations for complex code, m
 ## INTERPRETATION
 ### CONDITIONALS
 - WHEN a prompt CONTAINS "WITHMD"
-    - ONLY WRITE explanation to disk
+    - ONLY WRITE explanation to new .md file
 - WHEN a prompt CONTAINS "NOMD" OR NOT CONTAINS "WITHMD"
     - ONLY OUTPUT explanation to prompt
 
